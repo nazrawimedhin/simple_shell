@@ -1,12 +1,36 @@
-# SIMPLE SHELL
+# 0x16. C - Simple Shell
 
-Built as a project for ALX School.
+## Learning Objectives
 
-## Overview
+* At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-In this project, we implemented a command line interpreter or, as it is more commonly known, a shell.
+### General
 
-The shell works like the bash or any other basic shells and takes commands in the following syntax:
-`command name {arguments}`.
+* Who designed and implemented the original Unix operating system
+* Who wrote the first version of the UNIX shell
+* Who invented the B programming language (the direct predecessor to the C programming language)
+* Who is Ken Thompson
+* How does a shell work
+* What is a pid and a ppid
+* How to manipulate the environment of the current process
+* What is the difference between a function and a system call
+* How to create processes
+* What are the three prototypes of main
+* How does the shell use the PATH to find the programs
+* How to execute another program with the execve system call
+* How to suspend the execution of a process until one of its children terminates
+* What is EOF / “end-of-file”?
 
-:When you type in a command (in response to its prompt), the shell creates a child process that executes the command you entered and then prompts for more user input when it has finished.
+## Requirements
+
+* Allowed editors: vi, vim, emacs
+* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+* All your files should end with a new line
+* A README.md file, at the root of the folder of the project is mandatory
+* Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+* Your shell should not have any memory leaks
+* No more than 5 functions per file
+* All your header files should be include guarded
+* Use system calls only when you need to (why?)
+* Write a README with the description of your project
+* You should have an AUTHORS file at the root of your repository, listing all individuals having contributed content to the repository. Format, see Docker
